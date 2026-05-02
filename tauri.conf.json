@@ -1,9 +1,12 @@
 {
+  "productName": "PoleBrowse",
+  "version": "1.0.0",
+  "identifier": "com.polebrowse.app",
   "build": {
     "beforeBuildCommand": "npm run build",
     "beforeDevCommand": "npm run dev",
-    "devPath": "http://localhost:1420",
-    "frontendDist": "../dist"
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "dist"
   },
   "app": {
     "windows": [
@@ -21,12 +24,6 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis"],
-    "nsis": {
-      "installerIcon": null,
-      "uninstallerIcon": null,
-      "headerIcon": null,
-      "artifactPath": null
-    }
+    "targets": ["nsis"]
   }
 }
