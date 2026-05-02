@@ -15,8 +15,7 @@
         "height": 900,
         "resizable": true,
         "title": "PoleBrowse",
-        "width": 1200,
-        "icon": []
+        "width": 1200
       }
     ],
     "security": {
