@@ -24,6 +24,19 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis"]
+    "targets": ["nsis"],
+    "windows": [
+      {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "signingIdentity": null,
+        "timestampUrl": ""
+      }
+    ],
+    "nsis": {
+      "installerIcon": "icons/icon.png",
+      "uninstallerIcon": "icons/icon.png",
+      "headerIcon": "icons/icon.png"
+    }
   }
 }
