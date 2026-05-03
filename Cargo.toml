@@ -20,4 +20,4 @@ custom-protocol = ["tauri/custom-protocol"]
 
 [[bin]]
 name = "polebrowse"
-path = "src-tauri-src/main.rs"
+path = "src-rust/main.rs"
